@@ -1,0 +1,251 @@
+{
+	"ProfitLoss":
+	[
+		{
+			"table": "Requerimiento0",
+			"field":
+			[
+				{ "Año" : "Numeric" },
+				{ "Mes" : "Numeric" },
+				{ "Pendiente Facturación" : "String" },
+				{ "Código de Buque" : "String" },
+				{ "Nombre de Buque" : "String" },
+				{ "Tipo de Buque" : "String" },
+				{ "Nro  doc# de factura emitida asociada al buque" : "String" },
+				{ "Valor de venta de la factura asociada" : "String" },
+				{ "Valor de venta del servicio asociado" : "String" },
+				{ "Cuenta contable asociada al servicio" : "String" },
+				{ "Código de los servicios asociados a la factura" : "String" },
+				{ "Servicios asociados a la factura" : "String" },
+				{ "Cliente" : "String" }
+			]
+		},
+		{
+			"table": "Requerimiento2",
+			"field":
+			[
+				{ "Año" : "Numeric" },
+				{ "Año" : "Numeric" },
+				{ "Mes" : "Numeric" },
+				{ "Nombre de la cuenta" : "String" },
+				{ "Asiento contable_ID" : "String" },
+				{ "Código de los servicios asociados a la factura" : "String" },
+				{ "Nombre del servicio" : "String" },
+				{ "Cod Buque" : "String" },
+				{ "Buque" : "String" },
+				{ "US$" : "Numeric" },
+				{ "Cuenta" : "Numeric" },
+				{ "Asiento Contable_Factura Asociada a la reversión" : "String" },
+				{ "Tarifario" : "String" },
+				{ "Tipo de Carga" : "String" },
+				{ "Cliente" : "String" }
+			]
+		},
+		{
+			"table": "Requerimiento3",
+			"field":
+			[
+				{ "Año" : "Numeric" },
+				{ "Mes" : "Numeric" },
+				{ "Nombre de la Nave" : "String" },
+				{ "Manifiesto" : "String" },
+				{ "Bandera" : "String" },
+				{ "Línea Naviera" : "String" },
+				{ "Agencia Marítima" : "String" },
+				{ "Linea de Servicio" : "String" },
+				{ "Cuadrillas Nombradas" : "Numeric" },
+				{ "VEHÍCULOS TOTALES" : "Numeric" },
+				{ "N° Pasajeros" : "Numeric" },
+				{ "Días usados de barreras de contención" : "Numeric" },
+				{ "Toneladas de agua utilizadas" : "Numeric" }
+			]
+		},
+		{
+			"table": "Requerimiento4",
+			"field":
+			[
+				{ "Año" : "Numeric" },
+				{ "Mes" : "Numeric" },
+				{ "Descripción" : "String" },
+				{ "Monto" : "Numeric" }
+			]
+		},
+		{
+			"table": "Requerimiento51",
+			"field":
+			[
+				{ "Año" : "Numeric" },
+				{ "Mes" : "Numeric" },
+				{ "Descripción" : "String" },
+				{ "Monto" : "Numeric" }
+			]
+		},
+		{
+			"table": "Requerimiento52",
+			"field":
+			[
+				{ "Año" : "Numeric" },
+				{ "Mes" : "Numeric" },
+				{ "KwH usados por Edificio Administrativo" : "Numeric" }
+			]
+		},
+		{
+			"table": "Requerimiento61",
+			"field":
+			[
+				{ "Año" : "Numeric" },
+				{ "Mes" : "Numeric" },
+				{ "Cuenta Contable" : "Numeric" },
+				{ "Nombre de la cuenta contable" : "String" },
+				{ "Monto por Actividad 01" : "Numeric" },
+				{ "Monto por Actividad 02" : "Numeric" },
+				{ "Monto por Actividad 03" : "Numeric" },
+				{ "Monto por Actividad 04" : "Numeric" },
+				{ "Monto por Actividad 05" : "Numeric" },
+				{ "Monto por Actividad 06" : "Numeric" },
+				{ "Monto por Actividad 07" : "Numeric" },
+				{ "Monto por Actividad 08" : "Numeric" },
+				{ "Monto por Actividad 09" : "Numeric" },
+				{ "Monto por Actividad 10" : "Numeric" },
+				{ "Monto por Actividad 11" : "Numeric" },
+				{ "Monto por Actividad 12" : "Numeric" },
+				{ "Monto por Actividad 13" : "Numeric" },
+				{ "Monto por Actividad 14" : "Numeric" },
+				{ "Monto por Actividad 15" : "Numeric" },
+				{ "Monto por Actividad 16" : "Numeric" },
+				{ "Monto por Actividad 17" : "Numeric" },
+				{ "Monto por Actividad 18" : "Numeric" },
+				{ "Monto por Actividad 19" : "Numeric" },
+				{ "Monto por Actividad 20" : "Numeric" },
+				{ "Monto por Actividad 21" : "Numeric" },
+				{ "Monto por Actividad 22" : "Numeric" },
+				{ "Monto por Actividad 23" : "Numeric" },
+				{ "Monto por Actividad 24" : "Numeric" },
+				{ "Monto por Actividad 25" : "Numeric" },
+				{ "Monto por Actividad 26" : "Numeric" },
+				{ "Monto por Actividad 27" : "Numeric" },
+				{ "Monto por Actividad 28" : "Numeric" },
+				{ "Monto por Actividad 29" : "Numeric" },
+				{ "Monto por Actividad 30" : "Numeric" },
+				{ "Monto por Actividad 31" : "Numeric" },
+				{ "Monto por Actividad 32" : "Numeric" }
+			]
+		},
+		{
+			"table": "Requerimiento62",
+			"field":
+			[
+				{ "Año" : "Numeric" },
+				{ "Mes" : "Numeric" },
+				{ "Cuenta Contable" : "String" },
+				{ "Nombre de la cuenta contable" : "String" },
+				{ "110" : "Numeric" },
+				{ "120" : "Numeric" },
+				{ "130" : "Numeric" },
+				{ "140" : "Numeric" },
+				{ "150" : "Numeric" },
+				{ "160" : "Numeric" },
+				{ "170" : "Numeric" },
+				{ "180" : "Numeric" },
+				{ "200" : "Numeric" },
+				{ "210" : "Numeric" },
+				{ "220" : "Numeric" },
+				{ "230" : "Numeric" },
+				{ "240" : "Numeric" },
+				{ "250" : "Numeric" },
+				{ "260" : "Numeric" },
+				{ "270" : "Numeric" },
+				{ "310" : "Numeric" },
+				{ "320" : "Numeric" },
+				{ "330" : "Numeric" },
+				{ "340" : "Numeric" },
+				{ "350" : "Numeric" },
+				{ "360" : "Numeric" },
+				{ "370" : "Numeric" },
+				{ "380" : "Numeric" },
+				{ "390" : "Numeric" },
+				{ "400" : "Numeric" },
+				{ "410" : "Numeric" },
+				{ "420" : "Numeric" },
+				{ "430" : "Numeric" },
+				{ "440" : "Numeric" },
+				{ "450" : "Numeric" },
+				{ "460" : "Numeric" }
+			]
+		},
+		{
+			"table": "Requerimiento7",
+			"field":
+			[
+				{ "Año" : "Numeric" },
+				{ "Mes" : "Numeric" },
+				{ "Equipo" : "String" },
+				{ "Línea de servicio asociada al equipo" : "String" },
+				{ "Costo real de mantenimiento por turno" : "Float" }
+			]
+		},
+		{
+			"table": "Requerimiento9",
+			"field":
+			[
+				{ "Año" : "Numeric" },
+				{ "Mes" : "Numeric" },
+				{ "Especialidad de Estibador" : "String" },
+				{ "Tarifa por turno" : "Numeric" }
+			]
+		},
+		{
+			"table": "Requerimiento10",
+			"field":
+			[
+				{ "Año" : "Numeric" },
+				{ "Mes" : "Numeric" },
+				{ "Tipo de Equipo" : "String" },
+				{ "Línea de Servicio" : "String" },
+				{ "Litros de combustible usados" : "Numeric" }
+			]
+		},
+		{
+			"table": "Requerimiento11",
+			"field":
+			[
+				{ "Año" : "Numeric" },
+				{ "Mes" : "Numeric" },
+				{ "Centro de Costo" : "Numeric" },
+				{ "N°" : "Numeric" }
+			]
+		},
+		{
+			"table": "Requerimiento12",
+			"field":
+			[
+				{ "Día" : "Numeric" },
+				{ "Mes" : "Numeric" },
+				{ "Año" : "Numeric" },
+				{ "Código de Buque" : "String" },
+				{ "Nave" : "String" },
+				{ "Tipo de Carga" : "String" },
+				{ "Turno" : "String" },
+				{ "Capataz" : "Numeric" },
+				{ "Gruero" : "Numeric" },
+				{ "Tarjador" : "Numeric" },
+				{ "Estibador" : "Numeric" }
+			]
+		},
+		{
+			"table": "Requerimiento13",
+			"field":
+			[
+				{ "Año" : "Numeric" },
+				{ "Mes" : "Numeric" },
+				{ "Headcount por centro de costo" : "String" },
+				{ "Allocation Activity" : "Numeric" },
+				{ "Breakbulk" : "Numeric" },
+				{ "Container" : "Numeric" },
+				{ "General Cargo" : "Numeric" },
+				{ "Liquid" : "Numeric" },
+				{ "Solid" : "Numeric" }
+			]
+		}
+	]
+}

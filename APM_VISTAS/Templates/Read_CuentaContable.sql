@@ -1,0 +1,9 @@
+DECLARE @Anio INT = {0}, @Mes INT = {1};
+SELECT		[ACCOUNT],
+			[TYPE CONCEPT],
+			[CONCEPT],
+			[SUBCONCEPT],
+			[DESCRIPTION]
+FROM		TIPO_CUENTA
+WHERE		[AÑO] = @Anio AND
+			[MES] = @Mes

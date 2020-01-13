@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B2BCFFFE-9BD5-4931-9164-B524F3B6A1B4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>APM_VISTAS.My.MyApplication</StartupObject>
+    <RootNamespace>APM_VISTAS</RootNamespace>
+    <AssemblyName>APM_VISTAS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\GBA131\Development\P &amp; L\Mis publicaciones\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>APM_VISTAS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>APM_VISTAS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>443D34E357A8962036AD73A874F334443C57D73E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>APM_VISTAS_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.76.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=4.1.0.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.1.0\lib\net40\EPPlus.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_AgregarBuque.Designer.vb">
+      <DependentUpon>frm_AgregarBuque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AgregarBuque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AgregarBuque_V2.Designer.vb">
+      <DependentUpon>frm_AgregarBuque_V2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AgregarBuque_V2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AgregarCuenta.Designer.vb">
+      <DependentUpon>frm_AgregarCuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AgregarCuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AgregarCuentaContable.Designer.vb">
+      <DependentUpon>frm_AgregarCuentaContable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AgregarCuentaContable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AgregarCuentaIngreso.Designer.vb">
+      <DependentUpon>frm_AgregarCuentaIngreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AgregarCuentaIngreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_CargarRequerimiento.Designer.vb">
+      <DependentUpon>frm_CargarRequerimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_CargarRequerimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ConfiguracionConexion.Designer.vb">
+      <DependentUpon>frm_ConfiguracionConexion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ConfiguracionConexion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_EjecutarProceso.Designer.vb">
+      <DependentUpon>frm_EjecutarProceso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_EjecutarProceso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_EliminarRequerimiento.Designer.vb">
+      <DependentUpon>frm_EliminarRequerimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_EliminarRequerimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ExportarArchivo.Designer.vb">
+      <DependentUpon>frm_ExportarArchivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ExportarArchivo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Mantenimiento_Buque.Designer.vb">
+      <DependentUpon>frm_Mantenimiento_Buque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Mantenimiento_Buque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Mantenimiento_Cuenta.Designer.vb">
+      <DependentUpon>frm_Mantenimiento_Cuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Mantenimiento_Cuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Mantenimiento_CuentasContables.Designer.vb">
+      <DependentUpon>frm_Mantenimiento_CuentasContables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Mantenimiento_CuentasContables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Mantenimiento_Cuenta_Ingreso.Designer.vb">
+      <DependentUpon>frm_Mantenimiento_Cuenta_Ingreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Mantenimiento_Cuenta_Ingreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ModificarCuenta.Designer.vb">
+      <DependentUpon>frm_ModificarCuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ModificarCuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIMenuPrincipal.Designer.vb">
+      <DependentUpon>MDIMenuPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIMenuPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frm_AgregarBuque.resx">
+      <DependentUpon>frm_AgregarBuque.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AgregarBuque_V2.resx">
+      <DependentUpon>frm_AgregarBuque_V2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AgregarCuenta.resx">
+      <DependentUpon>frm_AgregarCuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AgregarCuentaContable.resx">
+      <DependentUpon>frm_AgregarCuentaContable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AgregarCuentaIngreso.resx">
+      <DependentUpon>frm_AgregarCuentaIngreso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_CargarRequerimiento.resx">
+      <DependentUpon>frm_CargarRequerimiento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ConfiguracionConexion.resx">
+      <DependentUpon>frm_ConfiguracionConexion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_EjecutarProceso.resx">
+      <DependentUpon>frm_EjecutarProceso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_EliminarRequerimiento.resx">
+      <DependentUpon>frm_EliminarRequerimiento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ExportarArchivo.resx">
+      <DependentUpon>frm_ExportarArchivo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Mantenimiento_Buque.resx">
+      <DependentUpon>frm_Mantenimiento_Buque.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Mantenimiento_Cuenta.resx">
+      <DependentUpon>frm_Mantenimiento_Cuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Mantenimiento_CuentasContables.resx">
+      <DependentUpon>frm_Mantenimiento_CuentasContables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Mantenimiento_Cuenta_Ingreso.resx">
+      <DependentUpon>frm_Mantenimiento_Cuenta_Ingreso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ModificarCuenta.resx">
+      <DependentUpon>frm_ModificarCuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIMenuPrincipal.resx">
+      <DependentUpon>MDIMenuPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="APM_VISTAS_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Apm.ProfitAndLoss.Datatier\Apm.ProfitAndLoss.Datatier.csproj">
+      <Project>{26491161-1e33-475b-981b-9612e40a2434}</Project>
+      <Name>Apm.ProfitAndLoss.Datatier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APM_CLASS\APM_CLASS.vbproj">
+      <Project>{cc5b691c-e978-409e-89d6-206375e1d9e4}</Project>
+      <Name>APM_CLASS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APM_DATOS\APM_DATOS.vbproj">
+      <Project>{84744361-8cd3-4f3d-adcb-6450f353fd5e}</Project>
+      <Name>APM_DATOS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\APM.ico" />
+    <Content Include="Templates\Create_CuentaContable.sql" />
+    <Content Include="Templates\Read_CuentaContable.sql" />
+    <None Include="packages.config" />
+    <None Include="Resources\Ico_Seleccionar.ico" />
+    <None Include="Resources\APM_Backgroud4.jpg" />
+    <Content Include="Resources\Ico_Agregar.ico" />
+    <None Include="Resources\Ico_Buscar.ico" />
+    <Content Include="Resources\Ico_Eliminar.ico" />
+    <Content Include="Resources\Ico_Modificar.ico" />
+    <Content Include="Resources\Ico_Salir.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
